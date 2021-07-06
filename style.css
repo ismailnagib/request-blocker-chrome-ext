@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+}
+
+#container {
+  margin: 15px;
+  padding: 1vw 1vh;
+  width: 100vw;
+  max-width: 300px;
+}
+
+#title {
+  text-align: center;
+}
+
+#actv-btn-container {
+  margin: 30px 35px 10px 35px;
+  border: 5px solid black;
+}
+
+#actv-btn {
+  padding: 10px;
+  outline: none;
+  width: 100%;
+  background-color: white;
+  border: 5px solid white;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 10px;
+}
+
+#actv-btn:active {
+  background-color: black;
+  color: white;
+}

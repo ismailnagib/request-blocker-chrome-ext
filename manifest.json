@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Request Blocker",
+  "version": "0.0.1",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>",
+    "storage"
+  ],
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  }
+}
